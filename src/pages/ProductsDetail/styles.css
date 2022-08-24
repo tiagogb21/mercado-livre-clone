@@ -1,0 +1,25 @@
+.product-detail__container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-detail__container > img {
+  height: 30vh;
+  background-size: cover;
+}
+
+.product-detail__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-title {
+  display: flex;
+}
+
+.box-title h2 {
+}
