@@ -1,0 +1,22 @@
+.btn-shop {
+  background: inherit;
+
+  width: 60px;
+  height: 60px;
+
+  border: none;
+  border-radius: 50%;
+
+  font-size: 30px;
+}
+
+.btn-shop span {
+  position: relative;
+  top: -20px;
+}
+
+.btn-shop:hover {
+  background: green;
+  color: white;
+  cursor: pointer;
+}
