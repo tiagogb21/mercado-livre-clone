@@ -1,0 +1,51 @@
+.dropdown {
+  position: absolute;
+  z-index: 1;
+  top: 11.5vh;
+  left: 24vw;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.menu {
+  width: 350px;
+
+  border-radius: 10px;
+  padding: 20px 0;
+
+  display: none;
+
+  background: rgb(56, 56, 56);
+
+  position: relative;
+  top: 3vh;
+  left: -100px;
+
+  color: var(--white);
+
+  font-size: 1vw;
+}
+
+.dropdown:hover .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1;
+}
+
+.menu li {
+  height: 50px;
+
+  padding-left: 50px;
+
+  display: flex;
+  align-items: center;
+}
+
+.menu li:hover {
+  background: blue;
+
+  cursor: pointer;
+}
